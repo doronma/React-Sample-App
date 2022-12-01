@@ -11,7 +11,7 @@ const LabledButton = () => {
   }
   
   return (
-    <div><h1><button onClick={handleButtonPress}>{label}</button></h1></div>
+    <div><h1>LabledButton: <button onClick={handleButtonPress}>{label}</button></h1></div>
   )
 }
 

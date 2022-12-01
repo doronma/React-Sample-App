@@ -8,7 +8,7 @@ const ButtonUpdateText = () => {
     setText("Button Was Pressed");
   }
   return (
-    <div><h1>{text} <MyButton onClick={handleButtonPress}>press me</MyButton></h1></div>
+    <div><h2>ButtonUpdateText: {text} <MyButton onClick={handleButtonPress}>ButtonUpdateText - Press Me</MyButton></h2></div>
   )
 }
 

@@ -13,7 +13,7 @@ const AxiousTable = () => {
         fetchData()
     }, [])
 
-    const tableRow = () => {M
+    const tableRow = () => {
         if (userdata) {
             return userdata.map((person) => {
                 return (
@@ -29,7 +29,9 @@ const AxiousTable = () => {
 
     return (
         <div>
-            <table>
+            <br/>
+            <h2> AxiosTable - User Data from server</h2>
+            <table border="1">
                 <thead>
                     <tr>
                         <th>Name</th>

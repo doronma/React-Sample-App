@@ -10,7 +10,7 @@ const LabledButtonWithParams = () => {
   
   return (
     <div>
-      <h1><button onClick={()=>handleButtonPress("Wrapper Pressed")}>{label}</button></h1>
+      <h1>LabledButtonWithParams: <button onClick={()=>handleButtonPress("Wrapper Pressed")}>{label}</button></h1>
       </div>
   )
 }

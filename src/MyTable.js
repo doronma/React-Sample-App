@@ -20,7 +20,9 @@ const MyTable = () => {
 
     return (
         <div>
-            <table>
+            <br/>
+            <h2>MyTable</h2>
+            <table border="1">
                 <thead>
                     <tr>
                         <th>FirstName</th>
