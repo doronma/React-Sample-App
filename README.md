@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Simple React App - show the basics
 
 This project was bootstrapped with [Create React App]
 
